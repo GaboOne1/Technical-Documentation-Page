@@ -1,0 +1,108 @@
+@media only screen and (max-width: 300px) {
+    body {
+      background-color: green;
+    }
+  }
+  
+  html, body {
+    font-family: Helvetica;
+  }
+  
+  
+  .pepe {
+    font-size: 1.5em;
+    margin: 10px;
+    text-align: center;
+    display:block;
+  }
+  #navbar ul {
+    height: 80%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+  }
+  ul{
+    display:block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px; 
+      padding-inline-start: 40px;
+  }
+  #navbar{
+    position: fixed;
+    min-width: 290px;
+    background-color: white;
+    top: 0;
+    left: 0px;
+    width: 310;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(70, 50, 66, 0.4);
+   
+  
+    
+  }
+  nav{
+    display:block;
+  }
+  #main-doc {
+    position: absolute;
+    margin-left: 320px;
+     background-color: #7d8471;
+    padding: 20px;
+    margin-bottom: 110px;
+  
+    
+  }
+  
+  main{
+    display:block;
+  }
+  
+  
+  #navbar li{
+    color: red;
+    border-top: 0.7px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+  }
+  li{
+    display: list-item;
+    text-align:-webkit-match-parent;
+     
+   
+  }
+  #navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+  
+  
+  
+  
+  
+  }
+  .hola{
+      text-align: left;
+      margin: 0px;
+      font-size: 1.7em;
+      padding: 10px 0px 0px 0px;
+      
+  }
+  a {
+    color: #fff;
+    background: white;
+  }
+  
+  @media (min-width: 1px) {
+    a:hover {
+      background: red;
+    }
+  }
